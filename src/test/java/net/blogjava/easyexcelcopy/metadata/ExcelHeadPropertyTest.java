@@ -2,7 +2,6 @@ package net.blogjava.easyexcelcopy.metadata;
 
 import static org.assertj.core.api.Assertions.*;
 
-import java.util.ArrayList;
 import java.util.Date;
 
 import org.junit.Before;
