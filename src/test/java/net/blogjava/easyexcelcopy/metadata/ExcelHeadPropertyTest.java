@@ -46,6 +46,9 @@ public class ExcelHeadPropertyTest {
 		assertThat(excelHeadProperty.getExcelColumnProperty(1).getHead().get(1)).isEqualTo("首列");
 		assertThat(excelHeadProperty.getExcelColumnProperty(2).getIndex()).isEqualTo(2);
 //		assertThat(excelHeadProperty.getExcelColumnProperty(2).getHead().get(0)).isEqualTo("第三列");
+		assertThat(excelHeadProperty.getCellRangeModels().size()).isEqualTo(2);
+		assertThat(excelHeadProperty.getCellRangeModels().get(0)).isEqualTo(new CellRange(0, 1, 0, 0));
+//		assertThat(excelHeadProperty.getCellRangeModels().get(1)).isEqualTo(new CellRange(0, 1, 2, 2));
 	}
 
 	class ThreeColumnHeadClass extends BaseRowModel {
