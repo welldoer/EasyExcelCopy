@@ -33,7 +33,6 @@ public class ExcelPropertyTest {
 		assertThat(excelProperty.value()).isEqualTo(new String[] {"银行到期日"});
 		assertThat(excelProperty.index()).isEqualTo(2);
 		assertThat(excelProperty.format()).isEqualTo("yyyy/mm/dd");
-		
 	}
 
 }
