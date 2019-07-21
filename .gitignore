@@ -1,7 +1,8 @@
 /.gradle/
 /bin
+/build
 .settings
 .classpath
 .project
-**/.DS_Store
+.DS_Store
 
