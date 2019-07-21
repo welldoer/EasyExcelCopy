@@ -22,6 +22,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.ss.util.CellReference;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.xml.sax.Attributes;
 import org.xml.sax.InputSource;
@@ -364,6 +365,7 @@ public class SampleExcelXMLTest {
 		}
 	}
 	
+	@Ignore
 	@Test
 	public void testExcelSSUserModel() throws EncryptedDocumentException, InvalidFormatException, FileNotFoundException, IOException {
 		Workbook wb = WorkbookFactory.create(new FileInputStream("/Users/zoubo/Work/BOC/WorkReport/Weekly report-20190714-邹波-核心.xlsx"));
